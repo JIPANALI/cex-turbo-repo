@@ -1,0 +1,26 @@
+{
+  "name": "http-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -b",
+    "start": "node dist/index.js",
+    "dev": "npm run build && npm run start"
+  },
+  "devDependencies": {
+    "@repo/typescript-config": "*"
+  },
+  "dependencies": {
+    "@repo/db": "*",
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.3",
+    "@types/redis": "^4.0.11",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "redis": "^5.8.2"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
