@@ -1,0 +1,19 @@
+{
+  "name": "engine-process",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@repo/typescript-config": "*"
+  },
+  "dependencies": {
+    "@types/redis": "^4.0.11",
+    "redis": "^5.8.2"
+  }
+}
